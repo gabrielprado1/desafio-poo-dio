@@ -39,12 +39,13 @@ public class Main {
         System.out.println("Conteúdos Inscritos Camila:" + devCamila.getConteudosInscritos());
         devCamila.progredir();
         devCamila.progredir();
-        System.out.println("-");
+        System.out.println("Somando progresso feito até agora...");
+        System.out.println("Sua XP acumulada é:" + devCamila.calcularTotalXp());
         System.out.println("Conteúdos Inscritos Camila:" + devCamila.getConteudosInscritos());
         System.out.println("Conteúdos Concluídos Camila:" + devCamila.getConteudosConcluidos());
-        System.out.println("XP:" + devCamila.calcularTotalXp());
+        
 
-        System.out.println("-------");
+        System.out.println("-------------------------------------------------------------------");
 
         Dev devJoao = new Dev();
         devJoao.setNome("Joao");
@@ -53,10 +54,11 @@ public class Main {
         devJoao.progredir();
         devJoao.progredir();
         devJoao.progredir();
-        System.out.println("-");
+        System.out.println("Somando progresso feito até agora...");
+        System.out.println("Sua XP acumulada é:"  + devJoao.calcularTotalXp());
         System.out.println("Conteúdos Inscritos João:" + devJoao.getConteudosInscritos());
         System.out.println("Conteúdos Concluidos João:" + devJoao.getConteudosConcluidos());
-        System.out.println("XP:" + devJoao.calcularTotalXp());
+        
 
     }
 
